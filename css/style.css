@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.header {
+  height: 700px;
+  background: url(../images/header/background-image.jpg) 0/cover no-repeat; }
+
+.nav-link-custom {
+  color: #fff !important;
+  text-transform: uppercase; }
+  .nav-link-custom:hover {
+    text-shadow: 1px 1px 2px white; }
+
+/*# sourceMappingURL=style.css.map */
