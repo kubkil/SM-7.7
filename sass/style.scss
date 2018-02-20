@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// VARIABLES
+
+$font-main: 'Montserrat', sans-serif;
+$font-italic: 'Droid Serif', serif;
+$font-team: 'Roboto Slab', slab-serif;
+$color-nav: #fff;
+
+
+// BODY
+
+body {
+  font-family: $font-main;
+}
+
+// HEADER
+
+.header {
+  height: 700px;
+  background: url(../images/header/background-image.jpg) 0/cover no-repeat;
+}
+
+.nav-link-custom {
+  color: $color-nav !important;
+  text-transform: uppercase;
+  &:hover {
+    text-shadow: 1px 1px 2px white; 
+  }
+}
