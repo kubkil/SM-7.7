@@ -8,7 +8,7 @@ body {
 
 .header {
   height: 700px;
-  background: url(../images/header/background-image.jpg) 0/cover no-repeat; }
+  background: url(images/header/background-image.jpg) 0/cover no-repeat; }
 
 .nav-link-custom {
   color: #fff !important;
