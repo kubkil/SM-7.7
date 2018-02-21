@@ -8,11 +8,11 @@ body {
 
 .header {
   height: 700px;
-  background: url(../images/header/background-image.jpg) center/cover no-repeat; }
+  background: url(./../images/header/background-image.jpg) center/cover no-repeat; }
   @media (max-width: 768px) {
     .header {
       height: 350px;
-      background: url(../images/header/background-image-small.jpg) center/cover no-repeat; } }
+      background: url(./../images/header/background-image-small.jpg) center/cover no-repeat; } }
 
 .nav-link-custom {
   color: #fff !important;
