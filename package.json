@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/kubkil/SM-7.7/issues"
   },
-  "homepage": "https://github.com/kubkil/SM-7.7#readme"
+  "homepage": "https://github.com/kubkil/SM-7.7#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "node-sass": "^4.7.2"
+  }
 }
