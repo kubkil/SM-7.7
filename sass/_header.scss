@@ -1,0 +1,89 @@
+// VARIABLES
+$color-header: #fff;
+$color-button: #fff;
+
+// HEADER
+
+.header {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(./../images/header/bgimage.jpg) center/cover no-repeat;
+  color: $color-header;
+  font-family: $font-main;
+}
+
+// NAV
+
+.header__nav {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__list {
+  display: none;
+  list-style-type: none;
+  @media #{$media-medium} {
+    display: inline-block;
+  }
+}
+
+.header__item {
+  display: inline-block;
+  margin: 0 1%;
+}
+
+.header__link {
+  @include link-style;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 0.2em;
+}
+
+.header__hamburger {
+  @media #{$media-medium} {
+    display: none;
+  }
+}
+
+#menu-toggle {
+  display: none;
+}
+
+// SLOGAN
+
+.header__slogan {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__greet {
+  text-transform: capitalize;
+  font-family: $font-snd;
+  font-size: 2.5em;
+  font-style: italic;
+}
+
+.header__heading {
+  text-transform: uppercase;
+  font-size: 4.688em;
+  font-weight: 700;
+}
+
+// BTN
+
+.header__wrapper {
+  text-align: center;
+}
+
+.header__btn {
+  @include link-style;
+  text-transform: uppercase;
+  text-align: center;
+}
