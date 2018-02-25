@@ -3,28 +3,4 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  font-family: "Montserrat", sans-serif; }
-
-.header {
-  height: 700px;
-  background: url(./../images/header/background-image.jpg) center/cover no-repeat; }
-  @media (max-width: 768px) {
-    .header {
-      height: 350px;
-      background: url(./../images/header/background-image-small.jpg) center/cover no-repeat; } }
-
-.nav-link-custom {
-  color: #fff !important;
-  text-transform: uppercase; }
-  .nav-link-custom:hover {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-
-.nav-item-custom {
-  margin-right: 1em; }
-
-@media (max-width: 768px) {
-  .navbar-nav-custom {
-    text-align: center; } }
-
 /*# sourceMappingURL=style.css.map */

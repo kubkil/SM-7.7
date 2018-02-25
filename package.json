@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "npm-run-all -s init:*",
+    "init:folders": "mkdir sass css js images",
+    "init:files": "touch index.html sass/style.scss css/style.css js/script.js",
+    "init:gitign": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore",
+    "watch": "npm-run-all -p watch:*",
+    "watch:sass": "node-sass sass css/style.css",
+    "watch:bs": "browser-sync start --server --files 'css/*.css' '*.html' --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -22,6 +28,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
   }
 }

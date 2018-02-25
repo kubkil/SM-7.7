@@ -4,45 +4,4 @@
   box-sizing: border-box;
 }
 
-// VARIABLES
-
-$font-main: 'Montserrat', sans-serif;
-$font-italic: 'Droid Serif', serif;
-$font-team: 'Roboto Slab', slab-serif;
-$color-nav: #fff;
-
-
-// BODY
-
-body {
-  font-family: $font-main;
-}
-
-// HEADER
-
-.header {
-  height: 700px;
-  background: url(./../images/header/background-image.jpg) center/cover no-repeat;
-  @media (max-width: 768px) {
-    height: 350px;
-    background: url(./../images/header/background-image-small.jpg) center/cover no-repeat;
-  }
-}
-
-.nav-link-custom {
-  color: $color-nav !important;
-  text-transform: uppercase;
-  &:hover {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
-  }
-}
-
-.nav-item-custom {
-  margin-right: 1em;
-}
-
-.navbar-nav-custom {
-  @media (max-width: 768px) {
-    text-align: center;
-  }
-}
+@import 'header';
