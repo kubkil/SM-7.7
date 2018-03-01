@@ -1,0 +1,24 @@
+// MEDIA
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1200px
+);
+
+@mixin respond-to($breakpoint) {
+  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+// OTHER
+
+@mixin link-style() {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin margin-width() {
+  margin: 0 auto;
+  width: 100%;
+}

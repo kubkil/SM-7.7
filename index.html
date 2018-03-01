@@ -13,40 +13,42 @@
 
 </head>
 <body>
-
   <header class="header">
-    <nav class="header__nav">
-      <a href="#"><img class="header__img" src="images/header/logo.png" alt="logo"></a>
-      <div class="header__hamburger">
+    <div class="header__width">
+      <nav class="header__nav">
+        <a class="header__logo" href="#">
+          <img src="images/header/logo.png" alt="logo">
+        </a>
         <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="header__toggle"><i class="fas fa-bars"></i></label>
+        <label for="menu-toggle" class="header__toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">home</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">services</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">portfolio</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">about</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__slogan">
+        <p class="header__greet">welcome to our studio!</p>
+        <h1 class="header__heading">it's nice to meet you</h1>
       </div>
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="#">home</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">services</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">portfolio</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">about</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__slogan">
-      <p class="header__greet">welcome to our studio!</p>
-      <h1 class="header__heading">it's nice to meet you</h1>
+      <span class="header__wrapperbtn">
+        <a class="header__btn" role="button" href="#">tell me more</a>
+      </span>
     </div>
-    <p class="header__wrapper">
-      <a class="header__btn" role="button" href="#">tell me more</a>
-    </p>
   </header>
-
 </body>
 </html>

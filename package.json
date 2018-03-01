@@ -7,10 +7,10 @@
     "init": "npm-run-all -s init:*",
     "init:folders": "mkdir sass css js images",
     "init:files": "touch index.html sass/style.scss css/style.css js/script.js",
-    "init:gitign": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "watch": "npm-run-all -p watch:*",
-    "watch:sass": "node-sass sass css/style.css",
-    "watch:bs": "browser-sync start --server --files 'css/*.css' '*.html' --browser chrome"
+    "watch:sass": "sass --watch sass:css",
+    "watch:bs": "browser-sync start --server --files css/*.css *.html --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,7 @@
     "url": "https://github.com/kubkil/SM-7.7/issues"
   },
   "homepage": "https://github.com/kubkil/SM-7.7#readme",
-  "dependencies": {
-    "mkdirp": "^0.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "node-sass": "^4.7.2",
