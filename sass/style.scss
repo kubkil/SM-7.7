@@ -1,15 +1,16 @@
+//  IMPORT MIXINS
+
+@import 'mixins';
+@import 'variables';
+
+// GLOBAL
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-size: 1rem;
-}
+// IMPORT SECTIONS
 
-// IMPORT
-
-@import 'mixins';
-@import 'variables';
 @import 'header';
