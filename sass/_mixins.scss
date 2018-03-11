@@ -18,7 +18,9 @@ $breakpoints: (
   color: inherit;
 }
 
-@mixin margin-width() {
+@mixin sections-width() {
+  max-width: 953px;
   margin: 0 auto;
   width: 100%;
 }
+

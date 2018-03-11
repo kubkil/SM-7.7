@@ -20,9 +20,7 @@
 }
 
 .header__width {
-  max-width: 953px;
-  width: 100%;
-  margin: 0 auto;
+  @include sections-width;
 }
 
 // NAV
@@ -123,7 +121,7 @@
 
 .header__greet {
   text-transform: capitalize;
-  font-family: $font-snd;
+  font-family: $font-secondary;
   font-size: 2.8em;
   font-style: italic;
   margin-bottom: 2.3%;

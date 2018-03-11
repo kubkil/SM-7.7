@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  font-size: 100%; }
+
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/header/bgimage-small.jpg) center/cover no-repeat;
   color: #fff;
@@ -13,8 +16,8 @@
 
 .header__width {
   max-width: 953px;
-  width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
 
 .header__nav {
   display: flex;
@@ -95,7 +98,7 @@
 
 .header__greet {
   text-transform: capitalize;
-  font-family: "Droid Serif", serif;
+  font-family: "droid-serif", serif;
   font-size: 2.8em;
   font-style: italic;
   margin-bottom: 2.3%; }
@@ -121,5 +124,52 @@
   background-color: #fed136;
   padding: 1.3em 3.6em;
   border-radius: 0.3em; }
+
+.services {
+  max-width: 953px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 8%; }
+
+.services__heading {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 700; }
+
+.services__types {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap; }
+
+.services__col {
+  flex: 1 1 auto;
+  margin-top: 9.1%;
+  padding: 0 1em 0 1em; }
+  @media screen and (min-width: 768px) {
+    .services__col {
+      flex: 0 0 33.33%; } }
+
+.services__paragraph {
+  font-size: 1em;
+  font-style: italic;
+  color: #777777;
+  text-align: center;
+  font-family: "droid-serif", serif; }
+
+.services__col-paragraph {
+  font-size: 0.875em;
+  font-family: "Roboto Slab", serif;
+  margin-top: 4%; }
+
+.services__icon {
+  border: 3px solid #fed136;
+  display: inline-block;
+  border-radius: 50%;
+  width: 68px;
+  height: 67px;
+  line-height: 5.6;
+  margin-bottom: 7.5%; }
 
 /*# sourceMappingURL=style.css.map */

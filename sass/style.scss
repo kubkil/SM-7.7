@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 100%;;
+}
+
 // IMPORT SECTIONS
 
 @import 'header';
+@import 'services';
