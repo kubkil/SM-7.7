@@ -1,5 +1,5 @@
 .services {
-  margin-top: 8%;
+  padding-top: 8%;
   padding-bottom: 7.3%;
   font-family: $font-main;
   @include sections-width;
@@ -16,7 +16,7 @@
 }
 
 .services__col {
-  margin-top: 9.1%;
+  margin-top: 8.5%;
   padding: 0 1em 0 1em;
   flex: 1 1 auto;
   @include respond-to(medium) {
@@ -25,6 +25,7 @@
 }
 
 .services__paragraph {
+  padding-top: 0.6%;
   @include paragraph-under-sectionheading;
 }
 

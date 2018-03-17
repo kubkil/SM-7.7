@@ -109,7 +109,7 @@ body {
   font-weight: 700;
   word-spacing: -5px; }
 
-.header__wrapperbtn {
+.header__wrapper-btn {
   display: flex;
   margin: 0 auto;
   max-width: 18.750em;
@@ -126,104 +126,104 @@ body {
   border-radius: 0.3em; }
 
 .services {
+  padding-top: 8%;
+  padding-bottom: 7.3%;
+  font-family: "Montserrat", sans-serif;
   max-width: 954px;
   margin: 0 auto;
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 8%;
-  padding-bottom: 7.3%; }
+  width: 100%; }
 
 .services__heading {
   text-align: center;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   text-transform: uppercase; }
 
 .services__types {
   display: flex;
-  text-align: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-align: center; }
 
 .services__col {
-  flex: 1 1 auto;
-  margin-top: 9.1%;
-  padding: 0 1em 0 1em; }
+  margin-top: 8.5%;
+  padding: 0 1em 0 1em;
+  flex: 1 1 auto; }
   @media screen and (min-width: 768px) {
     .services__col {
       flex: 0 0 33.33%; } }
 
 .services__paragraph {
-  font-size: 1em;
-  font-style: italic;
-  color: #777777;
+  padding-top: 0.6%;
   text-align: center;
-  font-family: "droid-serif", serif; }
+  font-size: 1em;
+  font-family: "droid-serif", serif;
+  font-style: italic;
+  color: #777777; }
 
 .services__col-paragraph {
+  margin-top: 4%;
   font-size: 0.875em;
   font-family: "Roboto Slab", serif;
-  color: #777777;
-  margin-top: 4%; }
+  color: #777777; }
 
 .services__icon {
-  border: 3px solid #fed136;
+  margin-bottom: 7.5%;
   display: inline-block;
-  border-radius: 50%;
   width: 68px;
   height: 67px;
   line-height: 5.6;
-  margin-bottom: 7.5%; }
+  border: 3px solid #fed136;
+  border-radius: 50%; }
 
 .portfolio {
-  background-color: #f7f7f7;
-  padding-top: 8%; }
+  padding-top: 8%;
+  background-color: #f7f7f7; }
 
 .portfolio__heading {
+  padding-bottom: 0.6%;
   text-align: center;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
-  text-transform: uppercase;
-  padding-bottom: 0.6%; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
 
 .portfolio__paragraph {
-  font-size: 1em;
-  font-style: italic;
-  color: #777777;
+  padding-bottom: 5.5%;
   text-align: center;
+  font-size: 1em;
   font-family: "droid-serif", serif;
-  padding-bottom: 5.5%; }
+  font-style: italic;
+  color: #777777; }
 
 .portfolio__projects {
-  max-width: 954px;
-  margin: 0 auto;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center;
-  justify-content: space-around; }
+  max-width: 954px;
+  margin: 0 auto;
+  width: 100%; }
   @media screen and (min-width: 896px) {
     .portfolio__projects {
       justify-content: space-between; } }
 
 .portfolio__col {
   max-width: 291px;
-  background-color: #fff;
-  margin-bottom: 5.2%; }
+  margin-bottom: 30%;
+  background-color: #fff; }
 
 .portfolio__col-heading {
+  padding-top: 7%;
   font-size: 1.125em;
-  color: #333333;
   font-family: "Montserrat", sans-serif;
-  padding-top: 7%; }
+  color: #333333; }
 
 .portfolio__col-paragraph {
+  padding-bottom: 10%;
   font-size: 0.875em;
-  color: #737373;
   font-family: "droid-serif", serif;
-  color: #737373;
   font-style: italic;
-  padding-bottom: 10%; }
+  color: #737373; }
 
 /*# sourceMappingURL=style.css.map */
