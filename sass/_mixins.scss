@@ -2,6 +2,7 @@
 $breakpoints: (
   'small': 320px,
   'medium': 768px,
+  'medium-large': 896px,
   'large': 1200px
 );
 
@@ -19,8 +20,23 @@ $breakpoints: (
 }
 
 @mixin sections-width() {
-  max-width: 953px;
+  max-width: 954px;
   margin: 0 auto;
   width: 100%;
 }
 
+@mixin sections-heading () {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: $font-main;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@mixin paragraph-under-sectionheading() {
+  text-align: center;
+  font-size: 1em;
+  font-family: $font-secondary;
+  font-style: italic;
+  color: $color-paragraph;
+}

@@ -1,0 +1,46 @@
+.portfolio {
+  padding-top: 8%;
+  background-color: #f7f7f7;
+}
+
+.portfolio__heading {
+  padding-bottom: 0.6%;
+  @include sections-heading;
+}
+
+.portfolio__paragraph {
+  padding-bottom: 5.5%;
+  @include paragraph-under-sectionheading;
+}
+
+.portfolio__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  @include sections-width;
+  @include respond-to(medium-large) {
+    justify-content: space-between;
+  }
+}
+
+.portfolio__col {
+  max-width: 291px;
+  margin-bottom: 5.2%;
+  background-color: #fff;
+}
+
+.portfolio__col-heading {
+  padding-top: 7%;
+  font-size: 1.125em;
+  font-family: $font-main;
+  color: #333333;
+}
+
+.portfolio__col-paragraph {
+  padding-bottom: 10%;
+  font-size: 0.875em;
+  font-family: $font-secondary;
+  font-style: italic;
+  color: #737373;
+}

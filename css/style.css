@@ -15,7 +15,7 @@ body {
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/header/bgimage.jpg) center/cover no-repeat; } }
 
 .header__width {
-  max-width: 953px;
+  max-width: 954px;
   margin: 0 auto;
   width: 100%; }
 
@@ -126,17 +126,19 @@ body {
   border-radius: 0.3em; }
 
 .services {
-  max-width: 953px;
+  max-width: 954px;
   margin: 0 auto;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  margin-top: 8%; }
+  margin-top: 8%;
+  padding-bottom: 7.3%; }
 
 .services__heading {
-  text-transform: uppercase;
-  font-size: 2.5em;
   text-align: center;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase; }
 
 .services__types {
   display: flex;
@@ -161,6 +163,7 @@ body {
 .services__col-paragraph {
   font-size: 0.875em;
   font-family: "Roboto Slab", serif;
+  color: #777777;
   margin-top: 4%; }
 
 .services__icon {
@@ -171,5 +174,56 @@ body {
   height: 67px;
   line-height: 5.6;
   margin-bottom: 7.5%; }
+
+.portfolio {
+  background-color: #f7f7f7;
+  padding-top: 8%; }
+
+.portfolio__heading {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-bottom: 0.6%; }
+
+.portfolio__paragraph {
+  font-size: 1em;
+  font-style: italic;
+  color: #777777;
+  text-align: center;
+  font-family: "droid-serif", serif;
+  padding-bottom: 5.5%; }
+
+.portfolio__projects {
+  max-width: 954px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around; }
+  @media screen and (min-width: 896px) {
+    .portfolio__projects {
+      justify-content: space-between; } }
+
+.portfolio__col {
+  max-width: 291px;
+  background-color: #fff;
+  margin-bottom: 5.2%; }
+
+.portfolio__col-heading {
+  font-size: 1.125em;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 7%; }
+
+.portfolio__col-paragraph {
+  font-size: 0.875em;
+  color: #737373;
+  font-family: "droid-serif", serif;
+  color: #737373;
+  font-style: italic;
+  padding-bottom: 10%; }
 
 /*# sourceMappingURL=style.css.map */
