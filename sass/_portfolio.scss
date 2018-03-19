@@ -4,21 +4,20 @@
 }
 
 .portfolio__heading {
-  padding-bottom: 0.6%;
-  @include sections-heading;
+  @include section-heading;
 }
 
 .portfolio__paragraph {
-  padding-bottom: 5.5%;
-  @include paragraph-under-sectionheading;
+  @include paragraph-under-heading;
 }
 
 .portfolio__projects {
+  padding-top: 5.5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
-  @include sections-width;
+  @include section-width;
   @include respond-to(medium-large) {
     justify-content: space-between;
   }
@@ -26,7 +25,7 @@
 
 .portfolio__col {
   max-width: 291px;
-  margin-bottom: 30%;
+  margin-bottom: 5.2%;
   background-color: #fff;
 }
 

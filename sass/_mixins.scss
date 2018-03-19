@@ -19,13 +19,14 @@ $breakpoints: (
   color: inherit;
 }
 
-@mixin sections-width() {
+@mixin section-width() {
   max-width: 954px;
   margin: 0 auto;
   width: 100%;
 }
 
-@mixin sections-heading () {
+@mixin section-heading () {
+  padding-bottom: 0.6%;
   text-align: center;
   font-size: 2.5em;
   font-family: $font-main;
@@ -33,7 +34,7 @@ $breakpoints: (
   text-transform: uppercase;
 }
 
-@mixin paragraph-under-sectionheading() {
+@mixin paragraph-under-heading() {
   text-align: center;
   font-size: 1em;
   font-family: $font-secondary;
