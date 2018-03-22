@@ -1,0 +1,42 @@
+.about-us__wrapper {
+  @include section-width;
+}
+
+.about-us__heading {
+  @include section-heading;
+}
+
+.about-us__paragraph {
+  @include paragraph-under-heading;
+}
+
+.about-us__images-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.about-us__line {
+  height: 94px;
+  width: 3px;
+  background-color: #f1f1f1;
+}
+
+.about-us__image {
+  display: block; // fix white space at the bottom of the images
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+}
+
+.about-us__image--last {
+  border: none;
+}
+
+.about-us__paragraph-left {
+  position: absolute;
+  bottom: 50;
+  width: 307px;
+  font-family: $font-paragraphs;
+  color: $color-paragraph;
+}
