@@ -34,10 +34,16 @@ $breakpoints: (
   text-transform: uppercase;
 }
 
-@mixin paragraph-under-heading() {
+@mixin paragraph-under-main-heading() {
   text-align: center;
   font-size: 1em;
   font-family: $font-secondary;
   font-style: italic;
   color: $color-paragraph;
+}
+
+@mixin about-us-text {
+  font-family: $font-main;
+  font-weight: 700;
+  font-size: 1.125em
 }
