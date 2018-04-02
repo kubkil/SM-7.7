@@ -1,5 +1,5 @@
 .portfolio {
-  padding-top: 8%;
+  padding: 8% 0 5% 0;
   background-color: #f7f7f7;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .portfolio__paragraph {
-  @include paragraph-under-heading;
+  @include paragraph-under-main-heading;
 }
 
 .portfolio__projects {
