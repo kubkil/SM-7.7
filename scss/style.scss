@@ -15,9 +15,14 @@ body {
   font-size: 100%;;
 }
 
+a {
+  text-decoration: none;
+}
+
 // IMPORT SECTIONS
 
 @import 'header';
 @import 'services';
 @import 'portfolio';
 @import 'aboutUs';
+@import 'team';
