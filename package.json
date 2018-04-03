@@ -9,7 +9,7 @@
     "init:files": "touch index.html sass/style.scss css/style.css js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "watch": "npm-run-all -p watch:*",
-    "watch:sass": "node-sass -w scss/ -o css/",
+    "watch:sass": "node-sass -w --source-map true --output-style compressed scss/ -o css/",
     "watch:bs": "browser-sync start --server --files css/*.css *.html --browser chrome"
   },
   "repository": {
