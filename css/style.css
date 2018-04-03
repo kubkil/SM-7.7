@@ -6,6 +6,9 @@
 body {
   font-size: 100%; }
 
+a {
+  text-decoration: none; }
+
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/header/bgimage-small.jpg) center/cover no-repeat;
   color: #fff;
@@ -154,7 +157,7 @@ body {
     .services__col {
       flex: 0 0 33.33%; } }
 
-.services__paragraph {
+.services__main-paragraph {
   text-align: center;
   font-size: 1em;
   font-family: "droid-serif", serif;
@@ -188,7 +191,7 @@ body {
   font-weight: 700;
   text-transform: uppercase; }
 
-.portfolio__paragraph {
+.portfolio__main-paragraph {
   text-align: center;
   font-size: 1em;
   font-family: "droid-serif", serif;
@@ -242,7 +245,7 @@ body {
   font-weight: 700;
   text-transform: uppercase; }
 
-.about-us__paragraph {
+.about-us__main-paragraph {
   text-align: center;
   font-size: 1em;
   font-family: "droid-serif", serif;
@@ -364,4 +367,21 @@ body {
       font-weight: 700;
       font-size: 1.125em; } }
 
-/*# sourceMappingURL=style.css.map */
+.team {
+  padding: 8% 0 5% 0;
+  background-color: #f7f7f7; }
+
+.team__heading {
+  padding-bottom: 0.6%;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.team__main-paragraph {
+  text-align: center;
+  font-size: 1em;
+  font-family: "droid-serif", serif;
+  font-style: italic;
+  color: #777777; }
