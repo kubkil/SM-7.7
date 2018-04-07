@@ -1,0 +1,88 @@
+.team {
+  padding: 7.8% 0 5% 0;
+  background-color: #f7f7f7;
+}
+
+.team__heading {
+  @include section-heading;
+}
+
+.team__main-paragraph {
+  @include paragraph-under-main-heading;
+}
+
+.team__members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 780px;
+  width: 100%;
+  padding-top: 5.7%;
+  margin: 0 auto;
+  text-align: center;
+  @include respond-to(medium) {
+    justify-content: space-between;
+  }
+}
+
+.team__name {
+  padding: 6.5% 0 2% 0;
+  font-family: $font-main;
+  font-weight: 700;
+}
+
+.team__job {
+  padding-bottom: 3%;
+  font-family: $font-paragraphs;
+  font-size: 0.875em;
+  color: $color-paragraph;
+}
+
+.team__social-logo {
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 2.563em;
+  height: 2.563em;
+  line-height: 2.3;
+  color:black;
+  font-weight: 700;
+}
+
+.team__social-link {
+  margin: 0 0.2em 0 0.2em;
+}
+
+.team__social-logo--twitter {
+  &:hover {
+    color: #0084b4;
+    border-color: #0084b4;
+  }
+}
+
+.team__social-logo--fb {
+  &:hover {
+    color: #3B5998;
+    border-color: #3B5998;
+  }
+}
+
+.team__social-logo--google-plus {
+  &:hover {
+    color: #d34836;
+    border-color: #d34836;
+  }
+}
+
+.team__social-logo--pinterest {
+  &:hover {
+    color: #CB1F27;
+    border-color: #CB1F27;
+  }
+}
+
+.team__paragraph {
+  padding-top: 3.5%;
+  font-family: $font-paragraphs;
+  text-align: center;
+  color: $color-paragraph;
+}
