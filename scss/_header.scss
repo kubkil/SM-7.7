@@ -1,21 +1,21 @@
 // HEADER
 
 .header {
-  background: 
+  background:
   linear-gradient(
-    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
   url(./../images/header/bgimage-small.jpg) center/cover no-repeat;
   color: $color-header;
   font-family: $font-main;
   @include respond-to(medium) {
-    background: 
+    background:
     linear-gradient(
-      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(./../images/header/bgimage.jpg) center/cover no-repeat; 
+    url(./../images/header/bgimage.jpg) center/cover no-repeat;
   }
 }
 
@@ -89,7 +89,8 @@
 #menu-toggle {
   display: none;
   &:checked ~ .header__list {
-    @media screen and (max-width: 768px) {  
+    // mixin respond-to uses min-width
+    @media screen and (max-width: 768px) {
       display: block;
       width: 100%;
       text-align: center;
@@ -98,10 +99,11 @@
     }
   }
   &:not(:checked) ~ .header__list {
-    @media screen and (max-width: 768px) {  
+    // mixin respond-to uses min-width
+    @media screen and (max-width: 768px) {
       display: none;
     }
-  }  
+  }
 }
 
 .header__toggle {
