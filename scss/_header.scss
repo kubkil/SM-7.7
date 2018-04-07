@@ -30,6 +30,7 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 4.8%;
+  position: relative;
   @include respond-to(medium) {
     justify-content: space-between;
   }
@@ -49,6 +50,10 @@
 
 .header__item {
   position: relative;
+  padding: 1%;
+  @include respond-to(medium) {
+    padding: 0;
+  }
 }
 
 .header__item:before {
@@ -95,7 +100,8 @@
       width: 100%;
       text-align: center;
       position: absolute;
-      top: 7%;
+      top: 100%;
+      background-color: rgba(52, 52, 54, 0.774);
     }
   }
   &:not(:checked) ~ .header__list {
@@ -108,6 +114,9 @@
 
 .header__toggle {
   font-size: 1.5em;
+  &:hover {
+    cursor: pointer;
+  }
   @include respond-to(medium) {
     display: none;
   }
