@@ -1,6 +1,5 @@
-// HEADER
-
 .header {
+  padding-bottom: 11.5%;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.5),
@@ -153,13 +152,10 @@
   max-width: 18.750em;
   width: 100%;
   justify-content: center;
-  padding-bottom: 17.3%;
 }
 
 .header__btn {
   @include link-style;
-  text-transform: uppercase;
-  background-color: #fed136;
-  padding: 1.3em 3.6em;
-  border-radius: 0.3em;
+  @include button-big;
+  padding: 1.2em 2.7em;
 }
