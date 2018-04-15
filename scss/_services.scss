@@ -1,5 +1,5 @@
 .services {
-  padding-top: 8%;
+  padding-top: 7.8%;
   padding-bottom: 7.3%;
   font-family: $font-main;
   @include section-width;
@@ -16,7 +16,7 @@
 }
 
 .services__col {
-  margin-top: 8.5%;
+  margin-top: 8.3%;
   padding: 0 1em 0 1em;
   flex: 1 1 auto;
   @include respond-to(medium) {
@@ -29,17 +29,17 @@
 }
 
 .services__col-paragraph {
-  margin-top: 4%;
-  font-size: 0.875em;
+  margin-top: 4.2%;
+  font-size: 0.875rem;
   font-family: $font-paragraphs;
   color: $color-paragraph;
 }
 
 .services__icon {
-  margin-bottom: 7.5%;
+  margin-bottom: 7%;
   display: inline-block;
-  width: 68px;
-  height: 67px;
+  width: 72px;
+  height: 71px;
   line-height: 5.6;
   border: 3px solid #fed136;
   border-radius: 50%;
