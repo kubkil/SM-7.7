@@ -59,8 +59,8 @@ $breakpoints: (
   color: #fff;
 }
 
-// @mixin input-contact {
-//   border: 1px solid #ccc;
-//   border-radius: 2px;
-//   background-color: #fff;
-// }
+@mixin input-placeholder {
+  font-weight: 700;
+  color: #bbb;
+  font-size: 0.875rem;
+}
