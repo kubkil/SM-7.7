@@ -31,15 +31,13 @@
 
 .portfolio__col-heading {
   padding-top: 7%;
-  font-size: 1.125em;
-  font-family: $font-main;
+  font: 1.125rem $font-main;
+  font-weight: 700;
   color: #333333;
 }
 
 .portfolio__col-paragraph {
   padding-bottom: 10%;
-  font-size: 0.875em;
-  font-family: $font-secondary;
-  font-style: italic;
+  font: italic 0.875rem $font-secondary;
   color: #737373;
 }

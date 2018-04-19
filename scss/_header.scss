@@ -131,15 +131,13 @@
 
 .header__greet {
   text-transform: capitalize;
-  font-family: $font-secondary;
-  font-size: 2.8em;
-  font-style: italic;
+  font: italic 2.8rem $font-secondary;
   margin-bottom: 2.3%;
 }
 
 .header__heading {
   text-transform: uppercase;
-  font-size: 4.688em;
+  font-size: 4.688rem;
   font-weight: 700;
   word-spacing: -5px;
 }

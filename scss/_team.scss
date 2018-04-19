@@ -33,23 +33,22 @@
 
 .team__job {
   padding-bottom: 3%;
-  font-family: $font-paragraphs;
-  font-size: 0.875em;
+  font: 0.875rem $font-paragraphs;
   color: $color-paragraph;
 }
 
 .team__social-logo {
   border: 3px solid black;
   border-radius: 50%;
-  width: 2.563em;
-  height: 2.563em;
+  width: 2.563rem;
+  height: 2.563rem;
   line-height: 2.3;
   color:black;
   font-weight: 700;
 }
 
 .team__social-link {
-  margin: 0 0.2em 0 0.2em;
+  margin: 0 0.2rem 0 0.2rem;
 }
 
 .team__social-logo--twitter {
