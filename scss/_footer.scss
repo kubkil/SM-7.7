@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 1.4% 0 1.4% 0;
+  @include respond-to(medium) {
+    display: block;
+  }
+}
+
+.footer__copyright {
+  font: 0.830rem $font-main;
+  color: #555;
+  font-weight: 700;
+  @include respond-to(medium) {
+    padding: 0.8% 0 0 16.4%;
+    text-align: left;
+    float: left;
+  }
+}
+
+.footer__social {
+  padding-bottom: 3%;
+  text-align: center;
+  @include respond-to(medium) {
+    padding-right: 35%;
+  }
+}
+
+.footer__social-link {
+  @include respond-to(medium) {
+    padding: 0 0.4% 0 0.4%;
+  }
+}
+
+.footer__social-logo {
+  line-height: 2.3;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  @include social-icon-circle;
+}

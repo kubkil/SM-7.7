@@ -59,3 +59,9 @@ $breakpoints: (
   font-size: 0.875rem;
   color: #bbb;
 }
+
+@mixin social-icon-circle {
+  border-radius: 50%;
+  width: 2.563rem;
+  height: 2.563rem;
+}
