@@ -1,0 +1,23 @@
+.collaborate {
+  padding: 4.3% 0 4.5% 0;
+}
+
+.collaborate__icons {
+  max-width: 765px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  @include respond-to(medium) {
+    justify-content: space-between;
+  }
+}
+
+.collaborate__icon {
+  margin: 0.5em;
+  @include respond-to(medium) {
+    margin: 0;
+  }
+}

@@ -20,7 +20,7 @@ $breakpoints: (
 }
 
 @mixin section-width {
-  max-width: 954px;
+  max-width: 59.63rem;
   margin: 0 auto;
   width: 100%;
 }
@@ -28,22 +28,41 @@ $breakpoints: (
 @mixin section-heading {
   padding-bottom: 0.6%;
   text-align: center;
-  font-size: 2.5em;
-  font-family: $font-main;
+  font: 2.5rem $font-main;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 @mixin paragraph-under-main-heading {
   text-align: center;
-  font-size: 1em;
-  font-family: $font-secondary;
-  font-style: italic;
+  font: italic 1.13rem $font-secondary;
   color: $color-paragraph;
 }
 
 @mixin about-us-text {
-  font-family: $font-main;
+  font: 1.125rem $font-main;
   font-weight: 700;
-  font-size: 1.125em
+}
+
+@mixin button-big {
+  text-transform: uppercase;
+  background-color: #fed136;
+  border-radius: 3px;
+  border: none;
+  font: 1.125rem $font-main;
+  font-weight: 700;
+  color: #fff;
+}
+
+@mixin input-placeholder {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #bbb;
+  text-transform: uppercase;
+}
+
+@mixin social-icon-circle {
+  border-radius: 50%;
+  width: 2.563rem;
+  height: 2.563rem;
 }

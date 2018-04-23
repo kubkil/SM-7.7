@@ -1,5 +1,5 @@
 .team {
-  padding: 7.8% 0 5% 0;
+  padding: 7.8% 1% 8.3% 1%;
   background-color: #f7f7f7;
 }
 
@@ -33,56 +33,67 @@
 
 .team__job {
   padding-bottom: 3%;
-  font-family: $font-paragraphs;
-  font-size: 0.875em;
+  font: 0.875rem $font-paragraphs;
   color: $color-paragraph;
 }
 
 .team__social-logo {
   border: 3px solid black;
-  border-radius: 50%;
-  width: 2.563em;
-  height: 2.563em;
-  line-height: 2.3;
-  color:black;
-  font-weight: 700;
+  line-height: 2;
+  color: #000;
+  // to make icon thicker
+  -webkit-text-stroke: 0.5px #000;
+  font-size: 1.1rem;
+  @include social-icon-circle;
 }
 
 .team__social-link {
-  margin: 0 0.2em 0 0.2em;
+  margin: 0 0.2rem 0 0.2rem;
 }
 
 .team__social-logo--twitter {
-  &:hover {
-    color: #0084b4;
-    border-color: #0084b4;
+  @include respond-to(medium) {
+    &:hover {
+      color: #0084b4;
+      border-color: #0084b4;
+      -webkit-text-stroke: 0.5px #0084b4;
+    }
   }
 }
 
 .team__social-logo--fb {
-  &:hover {
-    color: #3B5998;
-    border-color: #3B5998;
+  @include respond-to(medium) {
+    &:hover {
+      color: #3B5998;
+      border-color: #3B5998;
+      -webkit-text-stroke: 0.5px #3B5998;
+    }
   }
 }
 
 .team__social-logo--google-plus {
-  &:hover {
-    color: #d34836;
-    border-color: #d34836;
+  @include respond-to(medium) {
+    &:hover {
+      color: #d34836;
+      border-color: #d34836;
+      -webkit-text-stroke: 0.5px #d34836;
+    }
   }
 }
 
 .team__social-logo--pinterest {
-  &:hover {
-    color: #CB1F27;
-    border-color: #CB1F27;
+  @include respond-to(medium) {
+    &:hover {
+      color: #CB1F27;
+      border-color: #CB1F27;
+      -webkit-text-stroke: 0.5px #CB1F27;
+    }
   }
 }
 
 .team__paragraph {
   padding-top: 3.5%;
-  font-family: $font-paragraphs;
   text-align: center;
+  font-family: $font-paragraphs;
   color: $color-paragraph;
 }
