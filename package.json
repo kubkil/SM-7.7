@@ -26,6 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.23.7",
+    "hoek": "^5.0.3",
     "node-sass": "^4.9.0",
     "npm-run-all": "^4.1.2"
   }
