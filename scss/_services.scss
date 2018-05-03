@@ -1,5 +1,5 @@
 .services {
-  padding: 7.8% 0 7.3% 0;
+  padding: 8.2% 0 6.7% 0;
   font-family: $font-main;
   @include section-width;
 }
@@ -11,13 +11,13 @@
 .services__types {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   text-align: center;
 }
 
 .services__col {
-  margin-top: 8.3%;
-  padding: 0 1em 0 1em;
   flex: 1 1 auto;
+  padding: 0 2% 0 2%;
   @include respond-to(medium) {
     flex: 0 0 33.33%;
   }
@@ -25,20 +25,28 @@
 
 .services__main-paragraph {
   @include paragraph-under-main-heading;
+  margin-bottom: 6.4%;
+}
+
+.services__col-heading {
+  margin: 1.3rem 0 0.6rem 0;
 }
 
 .services__col-paragraph {
-  margin-top: 4.2%;
   font: 0.875rem $font-paragraphs;
   color: $color-paragraph;
+  margin-bottom: 2rem;
 }
 
 .services__icon {
-  margin-bottom: 7%;
-  display: inline-block;
+  // display: inline-block;
+  margin: 0 auto;
   width: 72px;
   height: 71px;
-  line-height: 5.6;
   border: 3px solid #fed136;
   border-radius: 50%;
+}
+
+.services__icon-logo {
+  margin-top: 20%;
 }

@@ -1,35 +1,42 @@
 .footer {
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
-  padding: 1.4% 0 1.4% 0;
+  padding: 1.6% 0 2% 0;
+  @include section-width;
   @include respond-to(medium) {
     display: block;
+    position: relative;
   }
 }
 
 .footer__copyright {
+  display: block;
+  text-align: center;
+  padding: 1% 0 1% 0;
   font: 0.830rem $font-main;
   color: #555;
   font-weight: 700;
   @include respond-to(medium) {
-    padding: 0.8% 0 0 16.4%;
-    text-align: left;
-    float: left;
+    display: inline-block;
   }
 }
 
 .footer__social {
-  padding-bottom: 3%;
   text-align: center;
+  padding: 1% 0 1% 0;
+  max-width: 100%;
   @include respond-to(medium) {
-    padding-right: 35%;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
 
 .footer__social-link {
   @include respond-to(medium) {
-    padding: 0 0.4% 0 0.4%;
+    padding: 0 2% 0 2%;
   }
 }
 
