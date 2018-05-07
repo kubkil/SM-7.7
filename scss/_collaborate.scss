@@ -1,11 +1,10 @@
 .collaborate {
-  padding: 4.3% 0 4.5% 0;
+  padding: 4.3% 2% 4.5% 2%;
+  @include section-width;
+
 }
 
 .collaborate__icons {
-  max-width: 765px;
-  width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

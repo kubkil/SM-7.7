@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 7.8% 0 5% 0;
+  padding: 8% 0 5% 0;
   background-color: #f7f7f7;
 }
 
@@ -12,20 +12,20 @@
 }
 
 .portfolio__projects {
-  padding-top: 5.3%;
+  padding: 5.5% 2% 0 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
   @include section-width;
-  @include respond-to(medium-large) {
-    justify-content: space-between;
-  }
+  // @include respond-to(medium-large) {
+  //   justify-content: space-between;
+  // }
 }
 
 .portfolio__col {
   max-width: 291px;
-  margin-bottom: 5.2%;
+  margin: 0 2% 4.6% 2%;
   background-color: #fff;
 }
 

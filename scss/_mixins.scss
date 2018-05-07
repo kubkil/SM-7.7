@@ -20,13 +20,13 @@ $breakpoints: (
 }
 
 @mixin section-width {
-  max-width: 59.63rem;
+  max-width: 75rem;
   margin: 0 auto;
   width: 100%;
 }
 
 @mixin section-heading {
-  padding-bottom: 0.6%;
+  padding-bottom: 0.5%;
   text-align: center;
   font: 2.5rem $font-main;
   font-weight: 700;
