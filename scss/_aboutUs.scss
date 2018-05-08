@@ -9,45 +9,39 @@
 
 .about-us__main-paragraph {
   @include paragraph-under-main-heading;
-  padding-top: 0.3%;
+  padding: 0.3% 0 6.5% 0;
 }
 
-.about-us__images-col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.about-us__timeline {
   position: relative;
-  padding-top: 6.6%;
-}
-
-.about-us__figure {
-  display: none;
-  @include respond-to(medium) {
-    display: block;
-  }
-}
-
-.about-us__line {
-  display: none;
-  @include respond-to(medium-large) {
-    display: block;
-    height: 94px;
+  @include section-width;
+  &::after {
+    content: '';
+    position: absolute;
     width: 3px;
     background-color: #f1f1f1;
-    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
   }
 }
 
-.about-us__image {
-  display: block; // fix white space at the bottom of the images
-  border: 7px solid #f1f1f1;
-  border-radius: 50%;
+.about-us__left,
+.about-us__right {
+  position: relative;
+  width: 50%;
 }
 
-.about-us__image--last {
-  border: none;
+.about-us__left {
+  left: 0;
 }
 
+.about-us__right {
+  left: 50%;
+}
+
+// TEXT
 .about-us__date {
   text-transform: uppercase;
   padding-bottom: 1%;
@@ -66,61 +60,80 @@
   color: $color-paragraph;
 }
 
-.about-us__text-one {
-  padding: 2em;
-  @include respond-to(medium-large) {
+.about-us__content-left {
+  padding-right: 23%;
+  text-align: right;
+}
+
+.about-us__content-right {
+  padding-left: 23%;
+}
+
+.about-us__content-right,
+.about-us__content-left--two {
+  margin-top: 24.5%;
+}
+
+// IMAGES
+.about-us__left--one,
+.about-us__left--two,
+.about-us__right--one,
+.about-us__right--two {
+  &::after {
     position: absolute;
-    bottom: 79.5%;
-    left: 14.5%;
-    max-width: 307px;
-    width: 100%;
-    text-align: right;
+    top: -1px;
   }
 }
 
-.about-us__text-two {
-  padding: 2em;
-  @include respond-to(medium-large) {
-    position: absolute;
-    bottom: 59.3%;
-    left: 58.4%;
-    max-width: 307px;
-    width: 100%;
-    text-align: left;
+.about-us__left--one,
+.about-us__left--two {
+  &::after {
+    right: -93px;
   }
 }
 
-.about-us__text-three {
-  padding: 2em;
-  @include respond-to(medium-large) {
-    position: absolute;
-    bottom: 39.1%;
-    left: 14.5%;
-    max-width: 307px;
-    width: 100%;
-    text-align: right;
+.about-us__right--one,
+.about-us__right--two {
+  &::after {
+    left: -93px;
   }
 }
 
-.about-us__text-four {
-  padding: 2em;
-  @include respond-to(medium-large) {
-    position: absolute;
-    bottom: 18.8%;
-    left: 58.5%;
-    max-width: 307px;
-    width: 100%;
-    text-align: left;
+.about-us__left--one {
+  &::after {
+    content: url('../images/about_us/Image1.png');
   }
 }
 
+.about-us__right--one {
+  &::after {
+    content: url('../images/about_us/Image2.png');
+  }
+}
+
+.about-us__left--two {
+  &::after {
+    content: url('../images/about_us/Image3.png');
+  }
+}
+
+.about-us__right--two {
+  &::after {
+    content: url('../images/about_us/Image4.png');
+  }
+}
+
+// LAST CIRCLE
 .about-us__last-circle {
   display: none;
   @include respond-to(medium) {
     display: block;
+    position: relative;
+    margin-top: 4rem;
     padding-top: 3.6%;
     width: 183px;
     height: 182px;
+    margin: 0 auto;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
