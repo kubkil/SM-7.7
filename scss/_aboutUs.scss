@@ -143,5 +143,10 @@
     border: 7px solid #f1f1f1;
     border-radius: 50%;
     @include about-us-text;
+    line-height: 1.5;
+  }
+  @include respond-to(rwd-timeline) {
+    margin: 0 auto;
+    margin-top: 11.5%;
   }
 }
