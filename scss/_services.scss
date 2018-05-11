@@ -1,7 +1,9 @@
 .services {
-  padding: 8.2% 0 6.7% 0;
+  padding: 8.2% 4% 6.7% 4%;
   font-family: $font-main;
-  @include section-width;
+  max-width: 88rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .services__heading {

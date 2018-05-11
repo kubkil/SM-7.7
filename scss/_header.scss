@@ -155,6 +155,7 @@
 .header__btn {
   @include link-style;
   @include button-big;
-  // padding: 1.4rem 3rem;
+  // fallback for old browsers that have problems with % padding on flex items
+  padding: 1.4rem 3rem;
   padding: 7.5% 16%;
 }
