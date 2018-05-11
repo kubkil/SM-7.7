@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column-reverse;
   padding: 1.6% 0 2% 0;
+  margin: 0 2% 0 2%;
   @include section-width;
   @include respond-to(medium) {
     display: block;
@@ -13,6 +14,7 @@
   display: block;
   text-align: center;
   padding: 1% 0 1% 0;
+  padding-left: 1.25rem;
   font: 0.830rem $font-main;
   color: #555;
   font-weight: 700;
@@ -23,7 +25,7 @@
 
 .footer__social {
   text-align: center;
-  padding: 1% 0 1% 0;
+  padding: 1rem 0 1rem 0;
   max-width: 100%;
   @include respond-to(medium) {
     padding: 0;
@@ -35,9 +37,7 @@
 }
 
 .footer__social-link {
-  @include respond-to(medium) {
-    padding: 0 2% 0 2%;
-  }
+  padding: 0 0.25rem 0 0.25rem;
 }
 
 .footer__social-logo {
