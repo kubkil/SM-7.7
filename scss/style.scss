@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'font-heading';
+  src: url('../web-fonts/DroidSerif-Regular-webfont.woff') format('woff');
+}
+
 // IMPORT SECTIONS
 
 @import 'header';
