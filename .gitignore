@@ -77,3 +77,6 @@ pixelperf
 
 # css
 css/
+css/style.css
+css/style.css.map
+css/style.prefixed.css
