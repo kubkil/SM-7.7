@@ -43,7 +43,7 @@
 .footer__social-logo {
   line-height: 2.3;
   background-color: #000;
-  color: #fff;
+  color: $color-white;
   font-size: 1.2rem;
   @include social-icon-circle;
 }

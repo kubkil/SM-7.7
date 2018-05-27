@@ -1,9 +1,7 @@
 .services {
   padding: 8.2% 4% 6.7% 4%;
   font-family: $font-main;
-  max-width: 88rem;
-  width: 100%;
-  margin: 0 auto;
+  @include section-width-services-about-us;
 }
 
 .services__heading {
@@ -41,7 +39,6 @@
 }
 
 .services__icon {
-  // display: inline-block;
   margin: 0 auto;
   width: 72px;
   height: 71px;

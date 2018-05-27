@@ -21,9 +21,15 @@ $breakpoints: (
 }
 
 @mixin section-width {
-  max-width: 75rem;
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+}
+
+@mixin section-width-services-about-us {
+  max-width: 1408px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 @mixin section-heading {
@@ -52,7 +58,7 @@ $breakpoints: (
   border: none;
   font: 1.125rem $font-main;
   font-weight: 700;
-  color: #fff;
+  color: $color-white;
 }
 
 @mixin input-placeholder {
@@ -66,4 +72,12 @@ $breakpoints: (
   border-radius: 50%;
   width: 2.563rem;
   height: 2.563rem;
+}
+
+@mixin hover-over-medium {
+  @include respond-to(medium) {
+    &:hover {
+      @content;
+    }
+  }
 }
