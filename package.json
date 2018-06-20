@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/kubkil/SM-7.7#readme",
   "dependencies": {
-    "postcss-cli": "^5.0.0"
+    "postcss-cli": "^5.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^8.4.1",
+    "autoprefixer": "^8.6.3",
     "browser-sync": "^2.24.4",
     "hoek": "^5.0.3",
     "node-sass": "^4.9.0",
